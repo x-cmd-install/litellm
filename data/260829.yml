@@ -1,0 +1,70 @@
+about:
+  description: The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
+  license: NOASSERTION
+  homepage: https://docs.litellm.ai/docs/
+  head: ae7e50f
+  archived: false
+  latestVersion: v1.100.0-dev.2
+  collectedAt: 2026-08-29T07:27:28Z
+timeline:
+  created: 2023-07-27
+  lastCommit: 2026-08-29
+  lastRelease: 2026-08-28
+popularity:
+  star: 57512
+  watcher: 227
+  fork: 11001
+  release: 1447
+  contributor: 1764
+  pullRequest: 10389
+  issue: 12399
+language:
+  Python: 80721245
+  TypeScript: 12756504
+  HTML: 1085362
+  Rust: 637315
+  Go: 612347
+  HCL: 204541
+  Shell: 120756
+  JavaScript: 103175
+  PLpgSQL: 37199
+  Dockerfile: 25208
+  Go Template: 23653
+  Makefile: 18967
+  CSS: 11094
+  PowerShell: 7073
+  Ruby: 1350
+totalLine: 96365789
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 33
+    mergedPR: 1319
+    openPR: 1078
+    closedIssue: 145
+    openIssue: 503
+    commit: 3544
+  last90d:
+    since: 2026-05-31
+    release: 100
+    mergedPR: 3284
+    openPR: 2802
+    closedIssue: 508
+    openIssue: 1260
+    commit: 6925
+  last180d:
+    since: 2026-03-02
+    release: 100
+    mergedPR: 5455
+    openPR: 3194
+    closedIssue: 1636
+    openIssue: 1574
+    commit: 13569
+  last360d:
+    since: 2025-09-03
+    release: 100
+    mergedPR: 9589
+    openPR: 3217
+    closedIssue: 4024
+    openIssue: 1629
+    commit: 23000
