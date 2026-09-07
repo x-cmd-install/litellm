@@ -2,30 +2,30 @@ about:
   description: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
   license: NOASSERTION
   homepage: https://docs.litellm.ai/docs/
-  head: 168a005
+  head: 96c6980
   archived: false
   latestVersion: "v1.100.0"
-  collectedAt: 2026-09-07T05:43:23Z
+  collectedAt: 2026-09-07T18:43:40Z
 timeline:
   created: 2023-07-27
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-09-06
 popularity:
-  star: 58180
-  watcher: 234
-  fork: 11220
+  star: 58223
+  watcher: 233
+  fork: 11245
   release: 1456
-  contributor: 1785
-  pullRequest: 26617
-  issue: 12562
+  contributor: 1786
+  pullRequest: 26659
+  issue: 12587
 language:
-  Python: 86439181
-  TypeScript: 13467601
+  Python: 86670066
+  TypeScript: 13499999
   HTML: 1086328
-  Rust: 776561
+  Rust: 784850
   Go: 612347
   HCL: 214531
-  Shell: 120851
+  Shell: 121962
   JavaScript: 75740
   PLpgSQL: 38924
   Dockerfile: 25976
@@ -34,76 +34,76 @@ language:
   CSS: 11094
   PowerShell: 7073
   Ruby: 1350
-totalBytes: 102920574
+totalBytes: 103193257
 recent:
   last30d:
     since: 2026-08-08
     release: 31
-    mergedPR: 1508
-    openPR: 1131
-    closedIssue: 143
-    openIssue: 468
-    commit: 4121
+    mergedPR: 1530
+    openPR: 1146
+    closedIssue: 144
+    openIssue: 492
+    commit: 4215
   last60d:
     since: 2026-07-09
     release: 65
-    mergedPR: 2706
-    openPR: 2299
-    closedIssue: 346
-    openIssue: 924
-    commit: 6791
+    mergedPR: 2728
+    openPR: 2313
+    closedIssue: 347
+    openIssue: 948
+    commit: 6885
   last90d:
     since: 2026-06-09
     release: 100
-    mergedPR: 3591
-    openPR: 2962
-    closedIssue: 523
-    openIssue: 1279
-    commit: 8380
+    mergedPR: 3613
+    openPR: 2976
+    closedIssue: 524
+    openIssue: 1303
+    commit: 8474
   last180d:
     since: 2026-03-11
     release: 100
-    mergedPR: 5676
-    openPR: 3261
-    closedIssue: 1681
-    openIssue: 1550
-    commit: 13753
+    mergedPR: 5698
+    openPR: 3274
+    closedIssue: 1682
+    openIssue: 1574
+    commit: 13847
   last360d:
     since: 2025-09-12
     release: 100
-    mergedPR: 10082
-    openPR: 3285
-    closedIssue: 4061
-    openIssue: 1606
-    commit: 24775
+    mergedPR: 10104
+    openPR: 3298
+    closedIssue: 4062
+    openIssue: 1630
+    commit: 24869
   last720d:
     since: 2024-09-17
     release: 100
-    mergedPR: 13515
-    openPR: 3286
-    closedIssue: 7858
-    openIssue: 1626
-    commit: 29658
+    mergedPR: 13537
+    openPR: 3299
+    closedIssue: 7859
+    openIssue: 1650
+    commit: 29750
 total:
   release: 1456
-  mergedPR: 15671
-  openPR: 3286
-  closedIssue: 10936
-  openIssue: 1626
-  commit: 47367
+  mergedPR: 15693
+  openPR: 3299
+  closedIssue: 10937
+  openIssue: 1650
+  commit: 47459
 ---
 path: /home/runner/.x-repo/github.com/BerriAI/litellm
-collectedAt: 2026-09-07T05:45:28Z
+collectedAt: 2026-09-07T18:45:35Z
 loc:
   Python:
-    code: 1818238
-    comments: 85623
-    blanks: 325445
-    files: 5667
+    code: 1823032
+    comments: 85587
+    blanks: 326419
+    files: 5673
   Tsx:
-    code: 250554
+    code: 250689
     comments: 5405
-    blanks: 33269
+    blanks: 33299
     files: 1415
   Json:
     code: 235255
@@ -111,20 +111,20 @@ loc:
     blanks: 4
     files: 138
   TypeScript:
-    code: 107092
-    comments: 28046
-    blanks: 9540
-    files: 585
+    code: 107670
+    comments: 28010
+    blanks: 9612
+    files: 588
   Yaml:
-    code: 72986
+    code: 72988
     comments: 1813
     blanks: 908
     files: 389
   Rust:
-    code: 19290
+    code: 19492
     comments: 312
-    blanks: 1969
-    files: 152
+    blanks: 1995
+    files: 154
   Go:
     code: 17309
     comments: 335
@@ -146,9 +146,9 @@ loc:
     blanks: 24
     files: 250
   Sh:
-    code: 1951
-    comments: 644
-    blanks: 288
+    code: 1964
+    comments: 645
+    blanks: 289
     files: 25
   Sql:
     code: 1866
@@ -161,8 +161,8 @@ loc:
     blanks: 404
     files: 41
   Toml:
-    code: 676
-    comments: 219
+    code: 680
+    comments: 221
     blanks: 61
     files: 16
   Pan:
@@ -212,8 +212,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 13152
-    blanks: 5145
+    comments: 13162
+    blanks: 5148
     files: 216
   Text:
     code: 0
@@ -221,10 +221,10 @@ loc:
     blanks: 402
     files: 413
 total:
-  code: 2546904
-  comments: 186753
-  blanks: 382807
-  files: 9910
+  code: 2552632
+  comments: 186709
+  blanks: 383914
+  files: 9921
 ---
 date: "2026-09-03T12:42:10Z"
 repo:
@@ -633,7 +633,7 @@ checks:
       - 'Info: found contributions from: CodeAsylums-Community, CodeChefVIT, Fool-Stack, JoshTalks, Mellow-Artificial-Intelligence, NVIDIAGameWorks, Quizzie-SE, Recyclero, aimoda, berriai, ctf-gg, fnplus, hyperschedule, jazzband, les-amateurs, litellm, mellow-artificial-intelligence, minerva university, thalesgroup, university of illinois urbana-champaign, verialabs, zero-to-mastery'
 ---
 eget:
-  collectedAt: 2026-09-07T05:45:31+00:00
+  collectedAt: 2026-09-07T18:45:39+00:00
   platform:
     darwin/arm64:
       name:  null
