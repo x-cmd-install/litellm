@@ -2,12 +2,12 @@ about:
   description: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
   license: NOASSERTION
   homepage: https://docs.litellm.ai/docs/
-  head: 802e526
+  head: f529d6d
   archived: false
   latestVersion: "v1.102.0-dev.1"
   latestRelease: "v1.100.0"
   latestPrerelease: "v1.102.0-dev.1"
-  collectedAt: 2026-09-09T06:02:45Z
+  collectedAt: 2026-09-09T20:29:09Z
 timeline:
   created: 2023-07-27
   lastCommit: 2026-09-09
@@ -15,16 +15,16 @@ timeline:
   lastRelease: 2026-09-06
   lastPrerelease: 2026-09-09
 popularity:
-  star: 58328
-  watcher: 232
-  fork: 11290
+  star: 58386
+  watcher: 233
+  fork: 11310
   release: 1457
-  contributor: 1789
-  pullRequest: 26844
-  issue: 12627
+  contributor: 1792
+  pullRequest: 26909
+  issue: 12640
 language:
-  Python: 87835618
-  TypeScript: 13668446
+  Python: 88021527
+  TypeScript: 13670567
   HTML: 1086328
   Rust: 784850
   Go: 612347
@@ -38,76 +38,76 @@ language:
   CSS: 11094
   PowerShell: 7073
   Ruby: 1350
-totalBytes: 104537699
+totalBytes: 104725729
 recent:
   last30d:
     since: 2026-08-10
     release: 30
-    mergedPR: 1597
-    openPR: 1136
-    closedIssue: 143
-    openIssue: 503
-    commit: 4614
+    mergedPR: 1615
+    openPR: 1171
+    closedIssue: 147
+    openIssue: 512
+    commit: 4686
   last60d:
     since: 2026-07-11
     release: 63
-    mergedPR: 2738
-    openPR: 2278
-    closedIssue: 346
-    openIssue: 960
-    commit: 7288
+    mergedPR: 2756
+    openPR: 2311
+    closedIssue: 350
+    openIssue: 969
+    commit: 7360
   last90d:
     since: 2026-06-11
     release: 100
-    mergedPR: 3632
-    openPR: 2979
-    closedIssue: 513
-    openIssue: 1320
-    commit: 8877
+    mergedPR: 3650
+    openPR: 3011
+    closedIssue: 518
+    openIssue: 1328
+    commit: 8949
   last180d:
     since: 2026-03-13
     release: 100
-    mergedPR: 5719
-    openPR: 3290
-    closedIssue: 1664
-    openIssue: 1592
-    commit: 14250
+    mergedPR: 5737
+    openPR: 3317
+    closedIssue: 1668
+    openIssue: 1601
+    commit: 14322
   last360d:
     since: 2025-09-14
     release: 100
-    mergedPR: 10192
-    openPR: 3313
-    closedIssue: 4071
-    openIssue: 1650
-    commit: 25272
+    mergedPR: 10210
+    openPR: 3340
+    closedIssue: 4075
+    openIssue: 1659
+    commit: 25344
   last720d:
     since: 2024-09-19
     release: 100
-    mergedPR: 13627
-    openPR: 3314
-    closedIssue: 7859
-    openIssue: 1670
-    commit: 30077
+    mergedPR: 13645
+    openPR: 3341
+    closedIssue: 7862
+    openIssue: 1680
+    commit: 30128
 total:
   release: 1457
-  mergedPR: 15803
-  openPR: 3314
-  closedIssue: 10957
-  openIssue: 1670
-  commit: 47827
+  mergedPR: 15821
+  openPR: 3341
+  closedIssue: 10960
+  openIssue: 1680
+  commit: 47878
 ---
 path: /home/runner/.x-repo/github.com/BerriAI/litellm
-collectedAt: 2026-09-09T06:05:09Z
+collectedAt: 2026-09-09T20:31:16Z
 loc:
   Python:
-    code: 1845605
-    comments: 85621
-    blanks: 330591
-    files: 5712
+    code: 1849039
+    comments: 85623
+    blanks: 331166
+    files: 5714
   Tsx:
-    code: 252369
+    code: 252433
     comments: 5395
-    blanks: 33487
+    blanks: 33494
     files: 1423
   Json:
     code: 235919
@@ -115,8 +115,8 @@ loc:
     blanks: 4
     files: 138
   TypeScript:
-    code: 109909
-    comments: 28158
+    code: 109927
+    comments: 28247
     blanks: 9849
     files: 601
   Yaml:
@@ -225,10 +225,10 @@ loc:
     blanks: 402
     files: 413
 total:
-  code: 2580421
-  comments: 186950
-  blanks: 388577
-  files: 9988
+  code: 2583937
+  comments: 187041
+  blanks: 389159
+  files: 9990
 ---
 date: "2026-09-03T12:42:10Z"
 repo:
