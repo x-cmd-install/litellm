@@ -4,7 +4,7 @@
 
 The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
 
-![litellm](https://repo.x-cmd.io/litellm.svg)
+![litellm](https://repo.x-cmd.io/litellm.svg?lang=zh)
 
 ## 安装
 
@@ -12,45 +12,17 @@ The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in
 x install litellm
 ```
 
-## 源代码
-
-- **上游仓库**: <https://github.com/BerriAI/litellm>
-- **官网**: <https://docs.litellm.ai/docs/>
-- **许可证**: NOASSERTION
-
-## 发布
-
-- **最新版本**: `v1.102.0-dev.1` (2026-09-06)
-- **最近提交**: 2026-09-10
-- **发布时间**: 2026-09-06T05:33:17Z
-
-## 流行度
-
-- **Star**: 58,411 · **Fork**: 11,315 · **开放 issue**: 12,651 · **贡献者**: 1,794
-
-## 累计统计
-
-- **发布数**: 1457 · **已合并 PR**: 15876 · **开放 PR**: 3323 · **已关闭 issue**: 10976 · **开放 issue**: 1675 · **提交数**: 48136
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 29 | 1634 | 1161 | 143 | 502 | 4989 |
-| 90d | 2026-06-12 | 99 | 3685 | 3002 | 518 | 1319 | 9260 |
-| 360d | 2025-09-15 | 100 | 10251 | 3322 | 4074 | 1654 | 25655 |
-
 ## 代码规模
 
-合计: **2,592,030** 行代码（覆盖前 5 种语言、共 **8290** 个文件）。
+合计: **2,601,731** 行代码（覆盖前 5 种语言、共 **8307** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 1,861,766 | 85,603 | 333,517 | 5729 |
-| Tsx | 253,064 | 5,393 | 33,564 | 1425 |
-| Json | 237,005 | 0 | 4 | 138 |
-| TypeScript | 110,214 | 28,259 | 9,885 | 605 |
-| Yaml | 73,372 | 1,826 | 914 | 393 |
+| Python | 1,866,534 | 85,596 | 334,613 | 5743 |
+| Tsx | 253,076 | 5,393 | 33,564 | 1425 |
+| Json | 237,186 | 0 | 4 | 138 |
+| TypeScript | 110,222 | 28,264 | 9,885 | 605 |
+| Yaml | 73,845 | 1,878 | 936 | 396 |
 
 ## OpenSSF Scorecard 评分
 
@@ -60,7 +32,45 @@ x install litellm
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Binary-Artifacts** (0/10) — binaries present in source code
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
+## 源代码
+
+- **上游仓库**: <https://github.com/BerriAI/litellm>
+- **官网**: <https://docs.litellm.ai/docs/>
+- **许可证**: NOASSERTION
+
+## 发布
+
+- **最新版本**: `v1.100.1` (2026-09-10)
+- **最近提交**: 2026-09-10
+
+## 流行度
+
+- **Star**: 58,458 · **Fork**: 11,334 · **开放 issue**: 12,673 · **贡献者**: 1,796
+
+## 累计统计
+
+- **发布数**: 1459 · **已合并 PR**: 15896 · **开放 PR**: 3334 · **已关闭 issue**: 10978 · **开放 issue**: 1695 · **提交数**: 48184
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 31 | 1654 | 1177 | 144 | 523 | 5048 |
+| last60d | 2026-07-12 | 63 | 2814 | 2307 | 359 | 983 | 7728 |
+| 90d | 2026-06-12 | 100 | 3705 | 3014 | 520 | 1339 | 9319 |
+| last180d | 2026-03-14 | 100 | 5778 | 3310 | 1675 | 1617 | 14692 |
+| 360d | 2025-09-15 | 100 | 10271 | 3333 | 4076 | 1674 | 25714 |
+| last720d | 2024-09-20 | 100 | 13714 | 3334 | 7873 | 1695 | 30418 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/litellm) 上共有 **6** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**5** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Nix unstable | `1.98.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -71,4 +81,4 @@ litellm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:54:57Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:24:37Z._
