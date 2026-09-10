@@ -2,12 +2,12 @@ about:
   description: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
   license: NOASSERTION
   homepage: https://docs.litellm.ai/docs/
-  head: e907e5e
+  head: bc77aa0
   archived: false
   latestVersion: "v1.100.1"
   latestRelease: "v1.100.1"
   latestPrerelease: "v1.102.0-dev.1"
-  collectedAt: 2026-09-10T17:58:08Z
+  collectedAt: 2026-09-10T21:22:30Z
 timeline:
   created: 2023-07-27
   lastCommit: 2026-09-10
@@ -15,20 +15,20 @@ timeline:
   lastRelease: 2026-09-10
   lastPrerelease: 2026-09-09
 popularity:
-  star: 58451
+  star: 58458
   watcher: 233
-  fork: 11332
+  fork: 11334
   release: 1459
   contributor: 1796
-  pullRequest: 27019
-  issue: 12670
+  pullRequest: 27041
+  issue: 12673
 language:
-  Python: 88843777
+  Python: 88924172
   TypeScript: 13713123
   HTML: 1086328
-  Rust: 784850
-  Go: 640776
-  HCL: 222987
+  Rust: 918387
+  Go: 640794
+  HCL: 254117
   Shell: 122984
   JavaScript: 75792
   PLpgSQL: 39525
@@ -38,79 +38,79 @@ language:
   CSS: 11094
   PowerShell: 7073
   Ruby: 1350
-totalBytes: 105619534
+totalBytes: 105864614
 recent:
   last30d:
     since: 2026-08-11
     release: 31
-    mergedPR: 1641
-    openPR: 1168
+    mergedPR: 1654
+    openPR: 1177
     closedIssue: 144
-    openIssue: 520
-    commit: 5020
+    openIssue: 523
+    commit: 5048
   last60d:
     since: 2026-07-12
     release: 63
-    mergedPR: 2801
-    openPR: 2299
+    mergedPR: 2814
+    openPR: 2307
     closedIssue: 359
-    openIssue: 980
-    commit: 7700
+    openIssue: 983
+    commit: 7728
   last90d:
     since: 2026-06-12
     release: 100
-    mergedPR: 3692
-    openPR: 3007
+    mergedPR: 3705
+    openPR: 3014
     closedIssue: 520
-    openIssue: 1336
-    commit: 9291
+    openIssue: 1339
+    commit: 9319
   last180d:
     since: 2026-03-14
     release: 100
-    mergedPR: 5765
-    openPR: 3303
+    mergedPR: 5778
+    openPR: 3310
     closedIssue: 1675
-    openIssue: 1614
-    commit: 14664
+    openIssue: 1617
+    commit: 14692
   last360d:
     since: 2025-09-15
     release: 100
-    mergedPR: 10258
-    openPR: 3326
+    mergedPR: 10271
+    openPR: 3333
     closedIssue: 4076
-    openIssue: 1671
-    commit: 25686
+    openIssue: 1674
+    commit: 25714
   last720d:
     since: 2024-09-20
     release: 100
-    mergedPR: 13701
-    openPR: 3327
+    mergedPR: 13714
+    openPR: 3334
     closedIssue: 7873
-    openIssue: 1692
-    commit: 30397
+    openIssue: 1695
+    commit: 30418
 total:
   release: 1459
-  mergedPR: 15883
-  openPR: 3327
+  mergedPR: 15896
+  openPR: 3334
   closedIssue: 10978
-  openIssue: 1692
-  commit: 48163
+  openIssue: 1695
+  commit: 48184
 ---
 path: /home/runner/.x-repo/github.com/BerriAI/litellm
-collectedAt: 2026-09-10T18:00:45Z
+collectedAt: 2026-09-10T21:24:27Z
 loc:
   Python:
-    code: 1864888
-    comments: 85599
-    blanks: 334309
-    files: 5741
+    code: 1866534
+    comments: 85596
+    blanks: 334613
+    files: 5743
   Tsx:
     code: 253076
     comments: 5393
     blanks: 33564
     files: 1425
   Json:
-    code: 237106
+    code: 237186
     comments: 0
     blanks: 4
     files: 138
@@ -120,25 +120,25 @@ loc:
     blanks: 9885
     files: 605
   Yaml:
-    code: 73372
-    comments: 1826
-    blanks: 914
-    files: 393
+    code: 73845
+    comments: 1878
+    blanks: 936
+    files: 396
   Rust:
-    code: 19492
-    comments: 312
-    blanks: 1995
-    files: 154
+    code: 23088
+    comments: 315
+    blanks: 2335
+    files: 183
   Go:
-    code: 18028
+    code: 18029
     comments: 346
     blanks: 2341
     files: 102
   Hcl:
-    code: 4614
-    comments: 773
-    blanks: 911
-    files: 42
+    code: 5240
+    comments: 778
+    blanks: 1017
+    files: 44
   JavaScript:
     code: 4070
     comments: 88
@@ -165,10 +165,10 @@ loc:
     blanks: 404
     files: 41
   Toml:
-    code: 680
+    code: 716
     comments: 221
-    blanks: 61
-    files: 16
+    blanks: 66
+    files: 17
   Pan:
     code: 583
     comments: 0
@@ -216,8 +216,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 13230
-    blanks: 5181
+    comments: 13328
+    blanks: 5202
     files: 216
   Text:
     code: 0
@@ -225,10 +225,10 @@ loc:
     blanks: 402
     files: 413
 total:
-  code: 2602661
-  comments: 187062
-  blanks: 392497
-  files: 10024
+  code: 2609127
+  comments: 187284
+  blanks: 393295
+  files: 10061
 ---
 date: "2026-09-10T12:41:38Z"
 repo:
