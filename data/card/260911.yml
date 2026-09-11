@@ -2,12 +2,12 @@ about:
   description: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
   license: NOASSERTION
   homepage: https://docs.litellm.ai/docs/
-  head: 9a715df
+  head: 95b4380
   archived: false
   latestVersion: "v1.102.0-dev.2"
   latestRelease: "v1.100.1"
   latestPrerelease: "v1.102.0-dev.2"
-  collectedAt: 2026-09-11T05:48:46Z
+  collectedAt: 2026-09-11T18:58:25Z
 timeline:
   created: 2023-07-27
   lastCommit: 2026-09-11
@@ -15,15 +15,15 @@ timeline:
   lastRelease: 2026-09-10
   lastPrerelease: 2026-09-11
 popularity:
-  star: 58478
+  star: 58527
   watcher: 233
-  fork: 11339
+  fork: 11364
   release: 1460
   contributor: 1797
-  pullRequest: 27095
-  issue: 12680
+  pullRequest: 27159
+  issue: 12694
 language:
-  Python: 89501437
+  Python: 89684916
   TypeScript: 13759185
   HTML: 1086328
   Rust: 918387
@@ -33,90 +33,90 @@ language:
   JavaScript: 75792
   PLpgSQL: 39525
   Go Template: 31393
-  Dockerfile: 28188
+  Dockerfile: 29556
   Makefile: 19844
   CSS: 11094
   PowerShell: 7073
   Ruby: 1350
-totalBytes: 106536684
+totalBytes: 106721531
 recent:
   last30d:
     since: 2026-08-12
     release: 22
-    mergedPR: 1632
-    openPR: 1161
-    closedIssue: 140
-    openIssue: 515
-    commit: 5215
+    mergedPR: 1647
+    openPR: 1200
+    closedIssue: 141
+    openIssue: 528
+    commit: 5286
   last60d:
     since: 2026-07-13
     release: 62
-    mergedPR: 2817
-    openPR: 2282
-    closedIssue: 357
-    openIssue: 966
-    commit: 7905
+    mergedPR: 2832
+    openPR: 2317
+    closedIssue: 358
+    openIssue: 979
+    commit: 7976
   last90d:
     since: 2026-06-13
     release: 100
-    mergedPR: 3712
-    openPR: 3010
-    closedIssue: 519
-    openIssue: 1336
-    commit: 9496
+    mergedPR: 3727
+    openPR: 3041
+    closedIssue: 520
+    openIssue: 1349
+    commit: 9567
   last180d:
     since: 2026-03-15
     release: 100
-    mergedPR: 5805
-    openPR: 3310
-    closedIssue: 1678
-    openIssue: 1613
-    commit: 14869
+    mergedPR: 5820
+    openPR: 3337
+    closedIssue: 1679
+    openIssue: 1626
+    commit: 14940
   last360d:
     since: 2025-09-16
     release: 100
-    mergedPR: 10299
-    openPR: 3333
-    closedIssue: 4078
-    openIssue: 1668
-    commit: 25894
+    mergedPR: 10314
+    openPR: 3360
+    closedIssue: 4079
+    openIssue: 1681
+    commit: 25965
   last720d:
     since: 2024-09-21
     release: 100
-    mergedPR: 13740
-    openPR: 3334
-    closedIssue: 7881
-    openIssue: 1689
-    commit: 30568
+    mergedPR: 13755
+    openPR: 3361
+    closedIssue: 7882
+    openIssue: 1702
+    commit: 30625
 total:
   release: 1460
-  mergedPR: 15933
-  openPR: 3334
-  closedIssue: 10991
-  openIssue: 1689
-  commit: 48343
+  mergedPR: 15948
+  openPR: 3361
+  closedIssue: 10992
+  openIssue: 1702
+  commit: 48400
 ---
 path: /home/runner/.x-repo/github.com/BerriAI/litellm
-collectedAt: 2026-09-11T05:50:37Z
+collectedAt: 2026-09-11T19:00:17Z
 loc:
   Python:
-    code: 1877979
-    comments: 85593
-    blanks: 336736
-    files: 5772
+    code: 1881278
+    comments: 85576
+    blanks: 337367
+    files: 5775
   Tsx:
     code: 253899
     comments: 5393
     blanks: 33683
     files: 1430
   Json:
-    code: 237225
+    code: 242345
     comments: 0
     blanks: 4
     files: 138
   TypeScript:
-    code: 110378
-    comments: 28295
+    code: 110154
+    comments: 28197
     blanks: 9911
     files: 606
   Yaml:
@@ -175,9 +175,9 @@ loc:
     blanks: 66
     files: 17
   Dockerfile:
-    code: 404
-    comments: 183
-    blanks: 128
+    code: 420
+    comments: 198
+    blanks: 129
     files: 8
   Css:
     code: 266
@@ -216,8 +216,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 13449
-    blanks: 5230
+    comments: 13459
+    blanks: 5234
     files: 217
   Text:
     code: 0
@@ -225,10 +225,10 @@ loc:
     blanks: 402
     files: 413
 total:
-  code: 2623515
-  comments: 187549
-  blanks: 395778
-  files: 10106
+  code: 2631726
+  comments: 187459
+  blanks: 396414
+  files: 10109
 ---
 date: "2026-09-10T12:41:38Z"
 repo:
