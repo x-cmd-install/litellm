@@ -47,30 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 58,602 · **Forks**: 11,391 · **Open issues**: 12,707 · **Contributors**: 1,808
+- **Stars**: 58,668 · **Forks**: 11,417 · **Open issues**: 12,719 · **Contributors**: 1,807
 
 ## Totals (cumulative)
 
-- **Releases**: 1461 · **Merged PRs**: 16067 · **Open PRs**: 692 · **Closed issues**: 11016 · **Open issues**: 1691 · **Commits**: 48826
+- **Releases**: 1461 · **Merged PRs**: 16068 · **Open PRs**: 3332 · **Closed issues**: 11031 · **Open issues**: 1688 · **Commits**: 48826
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 22 | 1648 | 191 | 135 | 493 | 4980 |
-| last60d | 2026-07-15 | 62 | 2860 | 303 | 344 | 929 | 8216 |
-| 90d | 2026-06-15 | 98 | 3812 | 474 | 527 | 1326 | 10217 |
-| last180d | 2026-03-17 | 100 | 5880 | 665 | 1656 | 1609 | 15104 |
-| 360d | 2025-09-18 | 100 | 10403 | 690 | 4065 | 1669 | 26584 |
-| last720d | 2024-09-23 | 100 | 13865 | 691 | 7892 | 1691 | 31021 |
-
-## Distribution status
-
-Reported by **6** distros on [repology.org](https://repology.org/project/litellm). **1** are ✅ on the latest upstream release, **5** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Nix unstable | `1.98.0` | ⚠️ outdated |
+| 30d | 2026-08-15 | 22 | 1614 | 1151 | 133 | 490 | 4980 |
+| last60d | 2026-07-16 | 61 | 2811 | 2175 | 341 | 931 | 8216 |
+| 90d | 2026-06-16 | 98 | 3784 | 3010 | 520 | 1325 | 10217 |
+| last180d | 2026-03-18 | 100 | 5847 | 3303 | 1643 | 1603 | 15104 |
+| 360d | 2025-09-19 | 100 | 10385 | 3331 | 4069 | 1666 | 26583 |
+| last720d | 2024-09-24 | 100 | 13858 | 3332 | 7902 | 1688 | 31012 |
 
 ## Improve this data
 
@@ -81,4 +73,4 @@ Install metadata for litellm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:57:22Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:21:02Z._
