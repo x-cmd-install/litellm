@@ -43,8 +43,8 @@
   "body": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.103.2\n```\n\n**Verify using the release tag (convenience):**\n\nTags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/v1.103.2/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.103.2\n```\n\nExpected output:\n\n```\nThe following checks were performed on each of these signatures:\n  - The cosign claims were validated\n  - The signatures were verified against the specified public key\n```\n\n---\n## What's Changed\n* chore(release): sync stable/1.103.x to v1.103.1 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/43824\n* fix(proxy): backport #40541, #43642, and #43656 to stable/1.103.x for v1.103.2 by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/43897\n* fix(anthropic): backport #42152 and #42288 to stable/1.103.x by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/43662\n* fix(proxy): backport #43962 to stable/1.103.x by @yuneng-berri in https://github.com/BerriAI/litellm/pull/43984\n\n\n**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.103.1...v1.103.2",
   "reactions": {
     "url": "https://api.github.com/repos/BerriAI/litellm/releases/400704742/reactions",
-    "total_count": 1,
-    "+1": 1,
+    "total_count": 2,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
