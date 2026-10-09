@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/BerriAI/litellm/releases/406129311",
-  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/406129311/assets",
-  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/406129311/assets{?name,label}",
-  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.1",
-  "id": 406129311,
+  "url": "https://api.github.com/repos/BerriAI/litellm/releases/406608916",
+  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/406608916/assets",
+  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/406608916/assets{?name,label}",
+  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.104.2",
+  "id": 406608916,
   "author": {
     "login": "litellm-dispatcher[bot]",
     "id": 279779857,
@@ -25,21 +25,33 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOKALCgc4YNQqf",
-  "tag_name": "v1.104.1",
+  "node_id": "RE_kwDOKALCgc4YPFwU",
+  "tag_name": "v1.104.2",
   "target_commitish": "main",
-  "name": "v1.104.1",
+  "name": "v1.104.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-07T17:33:06Z",
-  "updated_at": "2026-10-07T20:17:52Z",
-  "published_at": "2026-10-07T20:17:52Z",
+  "created_at": "2026-10-08T05:28:26Z",
+  "updated_at": "2026-10-08T08:39:07Z",
+  "published_at": "2026-10-08T08:39:07Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.104.1",
-  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.104.1",
-  "body": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.104.1\n```\n\n**Verify using the release tag (convenience):**\n\nTags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/v1.104.1/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.104.1\n```\n\nExpected output:\n\n```\nThe following checks were performed on each of these signatures:\n  - The cosign claims were validated\n  - The signatures were verified against the specified public key\n```\n\n---\n## What's Changed\n* chore(release): refresh dependencies on stable/1.104.x and cut 1.104.1 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/44777\n* chore(docker): bump pgbouncer to 1.26.0 by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/45012\n\n\n**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.104.0...v1.104.1",
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.104.2",
+  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.104.2",
+  "body": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.104.2\n```\n\n**Verify using the release tag (convenience):**\n\nTags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/v1.104.2/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.104.2\n```\n\nExpected output:\n\n```\nThe following checks were performed on each of these signatures:\n  - The cosign claims were validated\n  - The signatures were verified against the specified public key\n```\n\n---\n## What's Changed\n* feat(decisions): backport /v1/systemone, OpenAI-format /v1/decisions and the OpenAI Decisions provider to stable/1.104.x for v1.104.2 (#44236, #45184, #45214) by @mateo-berri in https://github.com/BerriAI/litellm/pull/45190\n\n\n**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.104.1...v1.104.2",
+  "reactions": {
+    "url": "https://api.github.com/repos/BerriAI/litellm/releases/406608916/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 1,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "mentions_count": 1
 }
