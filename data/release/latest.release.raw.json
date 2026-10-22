@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/BerriAI/litellm/releases/418755921",
-  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/418755921/assets",
-  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/418755921/assets{?name,label}",
-  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.1",
-  "id": 418755921,
+  "url": "https://api.github.com/repos/BerriAI/litellm/releases/419443405",
+  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/419443405/assets",
+  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/419443405/assets{?name,label}",
+  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.2",
+  "id": 419443405,
   "author": {
     "login": "litellm-dispatcher[bot]",
     "id": 279779857,
@@ -25,20 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOKALCgc4Y9bVR",
-  "tag_name": "v1.106.1",
+  "node_id": "RE_kwDOKALCgc4ZADLN",
+  "tag_name": "v1.106.2",
   "target_commitish": "main",
-  "name": "v1.106.1",
+  "name": "v1.106.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-20T16:11:00Z",
-  "updated_at": "2026-10-21T03:25:55Z",
-  "published_at": "2026-10-20T18:58:28Z",
+  "created_at": "2026-10-21T08:19:40Z",
+  "updated_at": "2026-10-21T10:50:35Z",
+  "published_at": "2026-10-21T10:50:35Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.106.1",
-  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.106.1",
-  "body": "## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.1\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.106.1\n\n9 PRs. 6 fixed. 1 needs action\n\n### Action required\n\n- **Vector stores:** Run `db_scripts/strip_vector_store_internal_metadata.py` to fix stores created before this release (#47021)\n\n### Changes\n\n- **Anthropic:** Fixed signed thinking blocks and `thinking.block_binding` being dropped on multi-turn requests (#41362, #46342) <sup>Also in [1.105.2](https://github.com/BerriAI/litellm/releases/tag/v1.105.2)</sup>\n- **Chat completions:** Fixed tool calls landing on `choices[1]` with gpt-5.4+ models, broken since v1.97.0 (#46099) <sup>Also in [1.105.2](https://github.com/BerriAI/litellm/releases/tag/v1.105.2)</sup>\n- **Batches and files:** Fixed 403 when team keys retrieve, cancel or download their own batches (#47067) <sup>Also in [1.105.2](https://github.com/BerriAI/litellm/releases/tag/v1.105.2)</sup>\n- **Vector stores:** Fixed HTTP 400 on metadata updates caused by keys the proxy added to the store (#47021)\n- **Token counting:** Fixed undercounted PDFs, system prompts and tools, and rejected Google `countTokens` requests (#47389, #47446, #47454) <sup>Also in [1.104.4](https://github.com/BerriAI/litellm/releases/tag/v1.104.4), [1.105.2](https://github.com/BerriAI/litellm/releases/tag/v1.105.2)</sup>\n- **MCP:** Fixed `Tool not found` when calling a bare tool name on `/{server}/mcp`, broken since v1.103.0 (#46225)\n\n---\n\nBackport #47517 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.106.0...v1.106.1)\n"
+  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.106.2",
+  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.106.2",
+  "body": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.2\n```\n\n**Verify using the release tag (convenience):**\n\nTags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/v1.106.2/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.2\n```\n\nExpected output:\n\n```\nThe following checks were performed on each of these signatures:\n  - The cosign claims were validated\n  - The signatures were verified against the specified public key\n```\n\n---\n## What's Changed\n* fix(count_tokens): backport Bedrock Mantle 404 fallback to stable/1.106.x by @mateo-berri in https://github.com/BerriAI/litellm/pull/47742\n* fix(batches)!: backport P0 batch-cost, pricing and translation fixes to stable/1.106.x for v1.106.2 by @mrinal-berri in https://github.com/BerriAI/litellm/pull/47736\n* fix(proxy): backport LIT-145 spend and cost fixes to stable/1.106.x for v1.106.2 by @kerry-berri in https://github.com/BerriAI/litellm/pull/47695\n\n\n**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.106.1...v1.106.2",
+  "mentions_count": 3
 }
