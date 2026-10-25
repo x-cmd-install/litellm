@@ -20,7 +20,7 @@
   visiblename: litellm
   version: 1.106.0
   origversion: 1.106.0-1
-  status: newest
+  status: outdated
   summary: Library to easily interface with LLM API providers.
   maintainers:
     - alphajack@aur
@@ -63,11 +63,12 @@
 - repo: nix_unstable
   srcname: litellm
   visiblename: litellm
-  version: 1.102.1
+  version: 1.106.2
   origversion: null
-  status: outdated
-  summary: Use any LLM as a drop in replacement for gpt-3.5-turbo. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs)
+  status: newest
+  summary: Call LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging
   maintainers:
     - raphael@megzari.com
+    - i@anish.land
   licenses:
     - MIT
