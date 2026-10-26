@@ -14,7 +14,7 @@ x install litellm
 
 ## Code insight
 
-Total: **3,925,025** lines of code across **11981** files in the top 5 languages.
+Total: **3,925,038** lines of code across **11981** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.106.3` (2026-10-24)
+- **Latest**: `v1.106.4` (2026-10-25)
 - **Last commit**: 2026-10-25
 
 ## Popularity
 
-- **Stars**: 61,985 · **Forks**: 12,643 · **Open issues**: 13,703 · **Contributors**: 1,983
+- **Stars**: 62,039 · **Forks**: 12,674 · **Open issues**: 13,710 · **Contributors**: 1,983
 
 ## Totals (cumulative)
 
-- **Releases**: 1530 · **Merged PRs**: 19426 · **Open PRs**: 3869 · **Closed issues**: 11898 · **Open issues**: 1805 · **Commits**: 55158
+- **Releases**: 1534 · **Merged PRs**: 19435 · **Open PRs**: 3909 · **Closed issues**: 11913 · **Open issues**: 1797 · **Commits**: 55159
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 57 | 2053 | 1434 | 158 | 541 | 2640 |
-| last60d | 2026-08-26 | 85 | 4332 | 2343 | 363 | 990 | 11846 |
-| 90d | 2026-07-27 | 100 | 5729 | 2972 | 640 | 1395 | 16533 |
-| last180d | 2026-04-28 | 100 | 8343 | 3839 | 1885 | 1694 | 21201 |
-| 360d | 2025-10-30 | 100 | 13142 | 3868 | 4428 | 1788 | 34249 |
-| last720d | 2024-11-04 | 100 | 16970 | 3869 | 8395 | 1804 | 36935 |
+| 30d | 2026-09-26 | 57 | 1980 | 1451 | 156 | 542 | 2641 |
+| last60d | 2026-08-27 | 88 | 4256 | 2371 | 351 | 982 | 11847 |
+| 90d | 2026-07-28 | 100 | 5697 | 2987 | 629 | 1383 | 16534 |
+| last180d | 2026-04-29 | 100 | 8316 | 3879 | 1874 | 1685 | 21202 |
+| 360d | 2025-10-31 | 100 | 13132 | 3908 | 4427 | 1781 | 34250 |
+| last720d | 2024-11-05 | 100 | 16973 | 3909 | 8404 | 1796 | 36924 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for litellm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:37:33Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:42:44Z._
