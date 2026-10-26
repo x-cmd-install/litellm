@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/BerriAI/litellm/releases/422638533",
-  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/422638533/assets",
-  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/422638533/assets{?name,label}",
-  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.3",
-  "id": 422638533,
+  "url": "https://api.github.com/repos/BerriAI/litellm/releases/423295199",
+  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/423295199/assets",
+  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/423295199/assets{?name,label}",
+  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.4",
+  "id": 423295199,
   "author": {
     "login": "yuneng-berri",
     "id": 264297931,
@@ -25,20 +25,32 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOKALCgc4ZMPPF",
-  "tag_name": "v1.106.3",
+  "node_id": "RE_kwDOKALCgc4ZOvjf",
+  "tag_name": "v1.106.4",
   "target_commitish": "main",
-  "name": "v1.106.3",
+  "name": "v1.106.4",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-24T01:30:49Z",
-  "updated_at": "2026-10-24T09:36:00Z",
-  "published_at": "2026-10-24T09:34:13Z",
+  "created_at": "2026-10-25T08:22:16Z",
+  "updated_at": "2026-10-25T09:41:54Z",
+  "published_at": "2026-10-25T09:39:15Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.106.3",
-  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.106.3",
-  "body": "> [!IMPORTANT]\n> **The image-signing key has changed.** Starting with this release, every Docker image and Helm chart is signed with the new cosign key from commit [`e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065). Verifying with the previous key from commit `0112e53` will fail.\n>\n> Update anything that pins the old `cosign.pub`: `cosign verify` scripts, CI checks, and admission policies such as Kyverno, Sigstore policy-controller or Connaisseur.\n>\n> New `cosign.pub` SHA-256: `e3fe3e08c44b16407fe0b37c43b4f8b603b3a0f4ee74c29e647bc022d762c2c0`\n\n## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.3\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.106.3\n\n4 PRs. 1 changed, 1 removed. 1 needs action\n\n### Action required\n\n- **Deployment:** Verify image signatures with the `cosign.pub` from commit `e82a3c6`, the previous key no longer matches (#48103) <sup>Also in [1.103.8](https://github.com/BerriAI/litellm/releases/tag/v1.103.8), [1.104.6](https://github.com/BerriAI/litellm/releases/tag/v1.104.6), [1.105.4](https://github.com/BerriAI/litellm/releases/tag/v1.105.4)</sup>\n\n### Changes\n\n- **Deployment:** Removed the eMudhra root CA from every certificate bundle the SDK, proxy and Docker images trust (#47670, #47969, #48139) <sup>Also in [1.103.8](https://github.com/BerriAI/litellm/releases/tag/v1.103.8), [1.104.6](https://github.com/BerriAI/litellm/releases/tag/v1.104.6), [1.105.4](https://github.com/BerriAI/litellm/releases/tag/v1.105.4)</sup>\n- **Deployment:** Changed the cosign key that signs Docker images and Helm charts to the one from commit `e82a3c6` (#48103) <sup>Also in [1.103.8](https://github.com/BerriAI/litellm/releases/tag/v1.103.8), [1.104.6](https://github.com/BerriAI/litellm/releases/tag/v1.104.6), [1.105.4](https://github.com/BerriAI/litellm/releases/tag/v1.105.4)</sup>\n\n---\n\nBackport #48078 · Backport #48142 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.106.2...v1.106.3)\n"
+  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.106.4",
+  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.106.4",
+  "body": "## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.4\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.106.4\n\n3 PRs. 2 fixed. No action needed to upgrade\n\n### Changes\n\n- **Deployment:** Fixed the proxy sometimes exiting on startup with an `ImportError` when it cannot reach the remote model cost map, broken since v1.104.0 (#46711) <sup>Also in [1.104.7](https://github.com/BerriAI/litellm/releases/tag/v1.104.7), [1.105.5](https://github.com/BerriAI/litellm/releases/tag/v1.105.5)</sup>\n- **Deployment:** Fixed image scans flagging brotli 1.2.0, the emSign ECC Root CA - G3 and unused lockfile packages (#48283, #48300)\n\n---\n\nBackport #48294 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.106.3...v1.106.4)\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/BerriAI/litellm/releases/423295199/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 1,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
