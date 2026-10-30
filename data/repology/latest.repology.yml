@@ -18,13 +18,25 @@
   srcname: litellm
   binname: litellm
   visiblename: litellm
-  version: 1.106.5
-  origversion: 1.106.5-1
+  version: 1.106.6
+  origversion: 1.106.6-2
   status: newest
   summary: Library to easily interface with LLM API providers.
   maintainers:
     - alphajack@aur
     - medaminezghal@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: litellm-bin
+  binname: litellm-bin
+  visiblename: litellm-bin
+  version: 1.106.6
+  origversion: 1.106.6-1
+  status: newest
+  summary: Library to easily interface with LLM API providers (prebuilt wheel)
+  maintainers:
+    - alphajack@aur
   licenses:
     - MIT
 - repo: nix_stable_25_05
