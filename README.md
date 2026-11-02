@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.109.0-dev.2` (2026-10-28)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-02
 
 ## Popularity
 
-- **Stars**: 62,468 · **Forks**: 12,886 · **Open issues**: 13,862 · **Contributors**: 2,046
+- **Stars**: 62,523 · **Forks**: 12,916 · **Open issues**: 13,871 · **Contributors**: 2,046
 
 ## Totals (cumulative)
 
-- **Releases**: 1543 · **Merged PRs**: 20008 · **Open PRs**: 3928 · **Closed issues**: 12209 · **Open issues**: 1653 · **Commits**: 55729
+- **Releases**: 1543 · **Merged PRs**: 20009 · **Open PRs**: 3914 · **Closed issues**: 12220 · **Open issues**: 1651 · **Commits**: 55730
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 56 | 2118 | 1396 | 244 | 462 | 2727 |
-| last60d | 2026-09-02 | 92 | 4435 | 2311 | 469 | 900 | 10849 |
-| 90d | 2026-08-03 | 100 | 6051 | 2934 | 741 | 1253 | 16804 |
-| last180d | 2026-05-05 | 100 | 8731 | 3891 | 2064 | 1578 | 21916 |
-| 360d | 2025-11-06 | 100 | 13602 | 3927 | 4653 | 1640 | 34970 |
-| last720d | 2024-11-11 | 100 | 17517 | 3928 | 8656 | 1652 | 37449 |
+| 30d | 2026-10-03 | 55 | 2026 | 1359 | 242 | 463 | 2728 |
+| last60d | 2026-09-03 | 90 | 4310 | 2271 | 461 | 892 | 10850 |
+| 90d | 2026-08-04 | 100 | 6002 | 2901 | 728 | 1247 | 16805 |
+| last180d | 2026-05-06 | 100 | 8704 | 3878 | 2058 | 1579 | 21917 |
+| 360d | 2025-11-07 | 100 | 13580 | 3913 | 4651 | 1638 | 34971 |
+| last720d | 2024-11-12 | 100 | 17512 | 3914 | 8660 | 1650 | 37444 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for litellm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:14:05Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:20:36Z._
