@@ -14,15 +14,15 @@ x install litellm
 
 ## Code insight
 
-Total: **4,265,489** lines of code across **12626** files in the top 5 languages.
+Total: **4,277,604** lines of code across **12856** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 3,148,913 | 73,638 | 539,342 | 8897 |
-| Json | 395,880 | 0 | 12 | 220 |
-| Tsx | 328,915 | 5,126 | 40,706 | 1718 |
-| Rust | 164,058 | 446 | 13,514 | 877 |
-| TypeScript | 156,493 | 36,118 | 13,641 | 914 |
+| Python | 3,126,920 | 72,492 | 536,790 | 8983 |
+| Json | 401,171 | 0 | 12 | 221 |
+| Tsx | 332,104 | 5,115 | 40,838 | 1734 |
+| Rust | 187,665 | 591 | 15,700 | 997 |
+| TypeScript | 158,060 | 36,430 | 13,727 | 921 |
 
 ## OpenSSF Scorecard
 
@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Binary-Artifacts** (0/10) — binaries present in source code
 
 ## Source
 
@@ -42,35 +42,35 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.107.0-rc.3` (2026-11-04)
-- **Last commit**: 2026-11-05
+- **Latest**: `v1.108.1` (2026-11-05)
+- **Last commit**: 2026-11-06
 
 ## Popularity
 
-- **Stars**: 62,735 · **Forks**: 13,019 · **Open issues**: 13,967 · **Contributors**: 2,058
+- **Stars**: 62,810 · **Forks**: 13,061 · **Open issues**: 13,978 · **Contributors**: 2,059
 
 ## Totals (cumulative)
 
-- **Releases**: 1547 · **Merged PRs**: 20226 · **Open PRs**: 4022 · **Closed issues**: 12279 · **Open issues**: 1688 · **Commits**: 55923
+- **Releases**: 1548 · **Merged PRs**: 20305 · **Open PRs**: 4063 · **Closed issues**: 12298 · **Open issues**: 1680 · **Commits**: 56000
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 56 | 1984 | 1404 | 229 | 486 | 3046 |
-| last60d | 2026-09-06 | 93 | 4358 | 2336 | 459 | 942 | 11168 |
-| 90d | 2026-08-07 | 100 | 6059 | 2949 | 726 | 1294 | 17123 |
-| last180d | 2026-05-09 | 100 | 8859 | 3979 | 2066 | 1619 | 22235 |
-| 360d | 2025-11-10 | 100 | 13747 | 4021 | 4689 | 1676 | 35289 |
-| last720d | 2024-11-15 | 100 | 17708 | 4022 | 8701 | 1687 | 37585 |
+| 30d | 2026-10-07 | 57 | 1967 | 1419 | 206 | 478 | 3156 |
+| last60d | 2026-09-07 | 92 | 4403 | 2367 | 453 | 930 | 11278 |
+| 90d | 2026-08-08 | 100 | 6098 | 2983 | 727 | 1295 | 17233 |
+| last180d | 2026-05-10 | 100 | 8932 | 4020 | 2078 | 1612 | 22345 |
+| 360d | 2025-11-11 | 100 | 13807 | 4062 | 4686 | 1668 | 35399 |
+| last720d | 2024-11-16 | 100 | 17785 | 4063 | 8717 | 1679 | 37655 |
 
 ## Distribution status
 
-Reported by **7** distros on [repology.org](https://repology.org/project/litellm). **2** are ✅ on the latest upstream release, **5** are ⚠️ on an older version.
+Reported by **7** distros on [repology.org](https://repology.org/project/litellm). **1** are ✅ on the latest upstream release, **6** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Nix unstable | `1.106.6` | ⚠️ outdated |
+| Nix unstable | `1.108.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -81,4 +81,4 @@ Install metadata for litellm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:49:25Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:55:19Z._
