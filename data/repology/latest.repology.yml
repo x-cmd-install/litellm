@@ -18,8 +18,8 @@
   srcname: litellm
   binname: litellm
   visiblename: litellm
-  version: 1.108.0
-  origversion: 1.108.0-1
+  version: 1.108.1
+  origversion: 1.108.1-1
   status: newest
   summary: Library to easily interface with LLM API providers.
   maintainers:
@@ -33,7 +33,7 @@
   visiblename: litellm-bin
   version: 1.108.0
   origversion: 1.108.0-1
-  status: newest
+  status: outdated
   summary: Library to easily interface with LLM API providers (prebuilt wheel)
   maintainers:
     - alphajack@aur
@@ -75,7 +75,7 @@
 - repo: nix_unstable
   srcname: litellm
   visiblename: litellm
-  version: 1.106.6
+  version: 1.108.0
   origversion: null
   status: outdated
   summary: Call LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging
