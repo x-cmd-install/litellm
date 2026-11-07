@@ -18,8 +18,8 @@
   srcname: litellm
   binname: litellm
   visiblename: litellm
-  version: 1.108.1
-  origversion: 1.108.1-1
+  version: 1.108.2
+  origversion: 1.108.2-1
   status: newest
   summary: Library to easily interface with LLM API providers.
   maintainers:
