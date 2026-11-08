@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/BerriAI/litellm/releases/437110491",
-  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/437110491/assets",
-  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/437110491/assets{?name,label}",
-  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.2",
-  "id": 437110491,
+  "url": "https://api.github.com/repos/BerriAI/litellm/releases/437885284",
+  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/437885284/assets",
+  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/437885284/assets{?name,label}",
+  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.3",
+  "id": 437885284,
   "author": {
     "login": "litellm-release[bot]",
     "id": 347182735,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOKALCgc4aDcbb",
-  "tag_name": "v1.108.2",
+  "node_id": "RE_kwDOKALCgc4aGZlk",
+  "tag_name": "v1.108.3",
   "target_commitish": "main",
-  "name": "1.108.2 (LTS)",
+  "name": "1.108.3 (LTS)",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-06T19:36:57Z",
-  "updated_at": "2026-11-06T22:50:40Z",
-  "published_at": "2026-11-06T22:07:43Z",
+  "created_at": "2026-11-07T19:05:20Z",
+  "updated_at": "2026-11-07T22:48:05Z",
+  "published_at": "2026-11-07T22:29:58Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.108.2",
-  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.108.2",
-  "body": "> [!TIP]\n> The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch\n\n## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.108.2\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.108.2 (LTS)\n\n12 PRs. 11 fixed, 1 changed. No action needed to upgrade\n\n### Changes\n\n- **OpenAI:** Fixed `openai/` deployments with an empty `api_key` sending `OPENAI_ADMIN_KEY` as the bearer token (#50218)\n- **AWS Bedrock:** Fixed Converse `service_tier` so unsupported tiers answer 400 and `reserved`, `auto` and `standard_only` are honored (#50360)\n- **AWS Bedrock:** Fixed Invoke dropping the `per-turn-control-2026-07-01` beta on Claude 4.5 and newer (#50362)\n- **Vertex AI and Gemini:** Fixed chirp text-to-speech ignoring `vertex_location`, so US and EU deployments call their multi-region host (#50392)\n- **Chat completions:** Fixed `response_format: json_object` on `openai/responses/*` and `azure/responses/*` answering 400 about the word json (#50267)\n- **Chat completions:** Fixed base64 PDFs sent to Claude as `image_url` answering 400, and Bedrock JSON schema calls dropping thinking (#50280)\n- **Responses API:** Fixed `/v1/responses/compact` returning 500 when a `during_call` guardrail is on by default (#50274)\n- **Embeddings, images and audio:** Fixed audio transcription errors echoing the full provider reply, transcript included, to clients and logs (#50325)\n- **MCP:** Changed hosted MCP tools that a translated route cannot run to return a clear 400, or be dropped with `drop_params` (#50348)\n- **Routing and fallbacks:** Fixed groups that accept unmatched tags rejecting requests after affinity or cooldown filtering (#48470)\n- **Routing and fallbacks:** Fixed prompt caching routing not pinning follow-ups to one deployment when `turn_off_message_logging` is on (#50276)\n- **Cost tracking and pricing:** Fixed spend rows being dropped and valid keys getting 401 while Postgres restarts or shuts down (#50132)\n\n---\n\nBackport #50297 · Backport #50326 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.108.1...v1.108.2)\n\n"
+  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.108.3",
+  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.108.3",
+  "body": "> [!TIP]\n> The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch\n\n## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.108.3\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.108.3 (LTS)\n\n11 PRs. 3 fixed. No action needed to upgrade\n\n### Changes\n\n- **AWS Bedrock:** Fixed every request failing on a Bedrock deployment with `api_base: \"\"`, which answered 500 or 400 (#50449)\n- **MCP:** Fixed tool results over 1 MiB failing with `SSE stream ended without a response`, broken since v1.103.0 (#47034)\n- **Guardrails:** Fixed model-level `post_call` guardrails checking each response twice and calling the moderation provider twice (#50463)\n\n---\n\nBackport #50484 · Backport #50487 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.108.2...v1.108.3)\n"
 }
