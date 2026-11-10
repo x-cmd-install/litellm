@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/BerriAI/litellm/releases/437885284",
-  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/437885284/assets",
-  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/437885284/assets{?name,label}",
-  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.3",
-  "id": 437885284,
+  "url": "https://api.github.com/repos/BerriAI/litellm/releases/439746150",
+  "assets_url": "https://api.github.com/repos/BerriAI/litellm/releases/439746150/assets",
+  "upload_url": "https://uploads.github.com/repos/BerriAI/litellm/releases/439746150/assets{?name,label}",
+  "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.4",
+  "id": 439746150,
   "author": {
     "login": "litellm-release[bot]",
     "id": 347182735,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOKALCgc4aGZlk",
-  "tag_name": "v1.108.3",
+  "node_id": "RE_kwDOKALCgc4aNf5m",
+  "tag_name": "v1.108.4",
   "target_commitish": "main",
-  "name": "1.108.3 (LTS)",
+  "name": "1.108.4 (LTS)",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-07T19:05:20Z",
-  "updated_at": "2026-11-07T22:48:05Z",
-  "published_at": "2026-11-07T22:29:58Z",
+  "created_at": "2026-11-09T20:37:23Z",
+  "updated_at": "2026-11-09T23:23:50Z",
+  "published_at": "2026-11-09T23:00:51Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.108.3",
-  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.108.3",
-  "body": "> [!TIP]\n> The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch\n\n## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.108.3\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.108.3 (LTS)\n\n11 PRs. 3 fixed. No action needed to upgrade\n\n### Changes\n\n- **AWS Bedrock:** Fixed every request failing on a Bedrock deployment with `api_base: \"\"`, which answered 500 or 400 (#50449)\n- **MCP:** Fixed tool results over 1 MiB failing with `SSE stream ended without a response`, broken since v1.103.0 (#47034)\n- **Guardrails:** Fixed model-level `post_call` guardrails checking each response twice and calling the moderation provider twice (#50463)\n\n---\n\nBackport #50484 · Backport #50487 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.108.2...v1.108.3)\n"
+  "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.108.4",
+  "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.108.4",
+  "body": "> [!TIP]\n> The `lts` image tag always points to the latest LTS release. Pull `ghcr.io/berriai/litellm:lts` to stay on the newest LTS patch\n\n## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.108.4\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.108.4 (LTS)\n\n10 PRs. 7 fixed, 1 changed. No action needed to upgrade\n\n### Changes\n\n- **AWS Bedrock:** Fixed 400s from GLM, GPT-6 Luna and Nova 2 on Bedrock when the conversation carries Claude's signed thinking (#50399)\n- **AWS Bedrock:** Changed `/bedrock` pass-through routes to enforce the model's `guardrailConfig` over any guardrail the caller sends (#47429)\n- **Vertex AI and Gemini:** Fixed Vertex AI Claude batches failing with 404 at create (#50365)\n- **Messages API:** Fixed `chatgpt/` models on `/v1/messages` dropping encrypted reasoning between turns (#50456)\n- **Messages API:** Fixed `/v1/messages` to OpenAI sending `background: true` upstream, which billed full runs that came back empty (#50462)\n- **Embeddings, images and audio:** Fixed `/v1/videos` polls failing with per-model keys or hitting the wrong provider account with a 404 (#44614)\n- **Routing and fallbacks:** Fixed team keys being served by a proxy-wide wildcard instead of the team's own BYOK wildcard deployment (#48490)\n- **SDK:** Fixed `completion()`, `responses()` and `messages` with tools failing with `No module named 'mcp'` on a base install, broken since v1.106.0 (#45961)\n\n---\n\nBackport #50568 · Backport #50605 · Backport #50693 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.108.3...v1.108.4)\n"
 }

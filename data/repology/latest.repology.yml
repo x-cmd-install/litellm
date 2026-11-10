@@ -18,8 +18,8 @@
   srcname: litellm
   binname: litellm
   visiblename: litellm
-  version: 1.108.3
-  origversion: 1.108.3-1
+  version: 1.108.4
+  origversion: 1.108.4-1
   status: newest
   summary: Library to easily interface with LLM API providers.
   maintainers:
@@ -33,7 +33,7 @@
   visiblename: litellm-bin
   version: 1.108.3
   origversion: 1.108.3-1
-  status: newest
+  status: outdated
   summary: Library to easily interface with LLM API providers (prebuilt wheel)
   maintainers:
     - alphajack@aur
