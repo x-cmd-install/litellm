@@ -33,13 +33,12 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-11-12T01:12:30Z",
-  "updated_at": "2026-11-12T02:07:01Z",
+  "updated_at": "2026-11-16T18:36:12Z",
   "published_at": "2026-11-12T02:07:01Z",
   "assets": [
 
   ],
   "tarball_url": "https://api.github.com/repos/BerriAI/litellm/tarball/v1.109.1",
   "zipball_url": "https://api.github.com/repos/BerriAI/litellm/zipball/v1.109.1",
-  "body": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.109.1\n```\n\n**Verify using the release tag (convenience):**\n\nTags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules:\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/v1.109.1/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.109.1\n```\n\nExpected output:\n\n```\nThe following checks were performed on each of these signatures:\n  - The cosign claims were validated\n  - The signatures were verified against the specified public key\n```\n\n---\n## What's Changed\n* security(proxy): backport #51254 to stable/1.109.x by @shrey-berri in https://github.com/BerriAI/litellm/pull/51264\n* chore: bump litellm 1.109.0 -> 1.109.1 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/51298\n\n\n**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.109.0...v1.109.1",
-  "mentions_count": 2
+  "body": "## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.109.1\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.109.1\n\n2 PRs. 1 changed. 1 needs action\n\n### Action required\n\n- **Keys, teams and auth:** Move `tenant_id`, `client_id`, `client_secret`, `azure_username`, `azure_password` and `azure_scope` request tags into `metadata` (#51254) <sup>Also in [1.106.9](https://github.com/BerriAI/litellm/releases/tag/v1.106.9), [1.108.6](https://github.com/BerriAI/litellm/releases/tag/v1.108.6)</sup>\n\n### Changes\n\n- **Keys, teams and auth:** Changed model and pass-through routes to refuse body `client_id`, `client_secret`, `tenant_id` and Azure login fields (#51254) <sup>Also in [1.106.9](https://github.com/BerriAI/litellm/releases/tag/v1.106.9), [1.108.6](https://github.com/BerriAI/litellm/releases/tag/v1.108.6)</sup>\n\n---\n\nBackport #51264 · [Full changelog](https://github.com/BerriAI/litellm/compare/v1.109.0...v1.109.1)\n"
 }
