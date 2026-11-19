@@ -1,14 +1,3 @@
-- repo: nix_stable_25_11
-  srcname: litellm
-  visiblename: litellm
-  version: 1.75.5
-  origversion: null
-  status: outdated
-  summary: Use any LLM as a drop in replacement for gpt-3.5-turbo. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs)
-  maintainers:
-    - raphael@megzari.com
-  licenses:
-    - MIT
 - repo: altsisyphus
   srcname: litellm
   binnames:
@@ -29,8 +18,8 @@
   srcname: litellm
   binname: litellm
   visiblename: litellm
-  version: 1.109.1
-  origversion: 1.109.1-1
+  version: 1.110.1
+  origversion: 1.110.1-1
   status: newest
   summary: Library to easily interface with LLM API providers.
   maintainers:
@@ -42,9 +31,9 @@
   srcname: litellm-bin
   binname: litellm-bin
   visiblename: litellm-bin
-  version: 1.109.1
-  origversion: 1.109.1-1
-  status: newest
+  version: 1.110.0
+  origversion: 1.110.0-1
+  status: outdated
   summary: Library to easily interface with LLM API providers (prebuilt wheel)
   maintainers:
     - alphajack@aur
@@ -54,6 +43,17 @@
   srcname: litellm
   visiblename: litellm
   version: 1.69.0
+  origversion: null
+  status: outdated
+  summary: Use any LLM as a drop in replacement for gpt-3.5-turbo. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs)
+  maintainers:
+    - raphael@megzari.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: litellm
+  visiblename: litellm
+  version: 1.75.5
   origversion: null
   status: outdated
   summary: Use any LLM as a drop in replacement for gpt-3.5-turbo. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs)
