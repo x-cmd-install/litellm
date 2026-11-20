@@ -14,19 +14,19 @@ x install litellm
 
 ## Code insight
 
-Total: **4,732,519** lines of code across **13958** files in the top 5 languages.
+Total: **4,794,614** lines of code across **14150** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 3,369,965 | 70,187 | 580,814 | 9578 |
-| Json | 491,375 | 0 | 8 | 236 |
-| Tsx | 353,772 | 5,106 | 42,134 | 1830 |
-| Rust | 277,675 | 618 | 23,349 | 1322 |
-| TypeScript | 170,773 | 38,384 | 14,458 | 992 |
+| Python | 3,386,186 | 70,118 | 583,295 | 9616 |
+| Json | 515,798 | 0 | 8 | 299 |
+| Tsx | 359,093 | 5,105 | 42,388 | 1860 |
+| Rust | 291,088 | 637 | 24,532 | 1364 |
+| TypeScript | 172,952 | 38,488 | 14,599 | 1011 |
 
 ## OpenSSF Scorecard
 
-Overall score: **5.8 / 10**
+Overall score: **5.6 / 10**
 
 Lowest-scoring checks:
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.106.11` (2026-11-19)
-- **Last commit**: 2026-11-19
+- **Latest**: `v1.106.12` (2026-11-20)
+- **Last commit**: 2026-11-20
 
 ## Popularity
 
-- **Stars**: 63,526 · **Forks**: 13,407 · **Open issues**: 14,250 · **Contributors**: 2,119
+- **Stars**: 63,599 · **Forks**: 13,441 · **Open issues**: 14,267 · **Contributors**: 2,122
 
 ## Totals (cumulative)
 
-- **Releases**: 1582 · **Merged PRs**: 21430 · **Open PRs**: 3820 · **Closed issues**: 12777 · **Open issues**: 1473 · **Commits**: 57015
+- **Releases**: 1588 · **Merged PRs**: 21587 · **Open PRs**: 3841 · **Closed issues**: 12803 · **Open issues**: 1464 · **Commits**: 57143
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 65 | 2005 | 1300 | 248 | 391 | 3176 |
-| last60d | 2026-09-20 | 100 | 4591 | 2265 | 573 | 790 | 6610 |
-| 90d | 2026-08-21 | 100 | 6543 | 2844 | 880 | 1119 | 16856 |
-| last180d | 2026-05-23 | 100 | 9765 | 3778 | 2323 | 1410 | 23430 |
-| 360d | 2025-11-24 | 100 | 14651 | 3818 | 4978 | 1464 | 36458 |
-| last720d | 2024-11-29 | 100 | 18843 | 3820 | 9114 | 1472 | 38544 |
+| 30d | 2026-10-21 | 66 | 2098 | 1288 | 246 | 386 | 3384 |
+| last60d | 2026-09-21 | 100 | 4638 | 2265 | 589 | 780 | 6818 |
+| 90d | 2026-08-22 | 100 | 6657 | 2858 | 898 | 1112 | 17064 |
+| last180d | 2026-05-24 | 100 | 9916 | 3798 | 2348 | 1401 | 23638 |
+| 360d | 2025-11-25 | 100 | 14782 | 3839 | 4984 | 1455 | 36666 |
+| last720d | 2024-11-30 | 100 | 19000 | 3841 | 9137 | 1463 | 38671 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for litellm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T09:30:09Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:13:07Z._
