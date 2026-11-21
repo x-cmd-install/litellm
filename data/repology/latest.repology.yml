@@ -31,9 +31,9 @@
   srcname: litellm-bin
   binname: litellm-bin
   visiblename: litellm-bin
-  version: 1.110.1
-  origversion: 1.110.1-1
-  status: outdated
+  version: 1.110.2
+  origversion: 1.110.2-1
+  status: newest
   summary: Library to easily interface with LLM API providers (prebuilt wheel)
   maintainers:
     - alphajack@aur
