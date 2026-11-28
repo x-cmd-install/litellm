@@ -2,30 +2,30 @@ about:
   description: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
   license: NOASSERTION
   homepage: https://docs.litellm.ai/docs/
-  head: 39f7f6a
+  head: 3261387
   archived: false
-  latestVersion: "v1.108.19"
-  latestRelease: "v1.108.19"
+  latestVersion: "v1.108.20"
+  latestRelease: "v1.108.20"
   latestPrerelease: "v1.113.0-dev.1"
-  collectedAt: 2026-11-27T10:23:45Z
+  collectedAt: 2026-11-28T09:09:19Z
 timeline:
   created: 2023-07-27
-  lastCommit: 2026-11-27
-  lastVersion: 2026-11-26
-  lastRelease: 2026-11-26
+  lastCommit: 2026-11-28
+  lastVersion: 2026-11-27
+  lastRelease: 2026-11-27
   lastPrerelease: 2026-11-26
 popularity:
-  star: 64010
-  watcher: 241
-  fork: 13615
-  release: 1602
+  star: 64057
+  watcher: 240
+  fork: 13638
+  release: 1603
   contributor: 2157
-  pullRequest: 38907
-  issue: 14426
+  pullRequest: 38997
+  issue: 14435
 language:
-  Python: 173870499
-  TypeScript: 21364358
-  Rust: 14263316
+  Python: 174012020
+  TypeScript: 21433292
+  Rust: 14555428
   HTML: 1173967
   Go: 858631
   HCL: 325072
@@ -39,102 +39,102 @@ language:
   Dockerfile: 11947
   Jinja: 3101
   Ruby: 1350
-totalBytes: 212376693
+totalBytes: 212879260
 recent:
   last30d:
-    since: 2026-10-28
-    release: 64
-    mergedPR: 2699
-    openPR: 1482
-    closedIssue: 246
-    openIssue: 394
-    commit: 3951
+    since: 2026-10-29
+    release: 62
+    mergedPR: 2697
+    openPR: 1469
+    closedIssue: 237
+    openIssue: 385
+    commit: 4027
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 100
-    mergedPR: 4959
-    openPR: 2441
-    closedIssue: 628
-    openIssue: 743
-    commit: 7461
+    mergedPR: 4969
+    openPR: 2421
+    closedIssue: 627
+    openIssue: 735
+    commit: 7537
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 100
-    mergedPR: 7257
-    openPR: 3104
-    closedIssue: 932
-    openIssue: 1086
-    commit: 17036
+    mergedPR: 7286
+    openPR: 3107
+    closedIssue: 934
+    openIssue: 1084
+    commit: 17112
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 100
-    mergedPR: 10754
-    openPR: 4112
-    closedIssue: 2430
+    mergedPR: 10794
+    openPR: 4120
+    closedIssue: 2423
     openIssue: 1372
-    commit: 24827
+    commit: 24903
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 100
-    mergedPR: 15625
-    openPR: 4168
-    closedIssue: 5080
-    openIssue: 1424
-    commit: 37788
+    mergedPR: 15651
+    openPR: 4178
+    closedIssue: 5075
+    openIssue: 1422
+    commit: 37864
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 100
-    mergedPR: 19932
-    openPR: 4170
-    closedIssue: 9284
-    openIssue: 1431
-    commit: 39412
+    mergedPR: 19985
+    openPR: 4180
+    closedIssue: 9291
+    openIssue: 1429
+    commit: 39452
 total:
-  release: 1602
-  mergedPR: 22567
-  openPR: 4170
-  closedIssue: 12994
-  openIssue: 1432
-  commit: 57962
+  release: 1603
+  mergedPR: 22625
+  openPR: 4180
+  closedIssue: 13005
+  openIssue: 1430
+  commit: 58014
 ---
 path: /home/runner/.x-repo/github.com/BerriAI/litellm
-collectedAt: 2026-11-27T10:30:12Z
+collectedAt: 2026-11-28T09:13:21Z
 loc:
   Python:
-    code: 3562720
-    comments: 69828
-    blanks: 616066
-    files: 9890
+    code: 3565577
+    comments: 69820
+    blanks: 616613
+    files: 9893
   Json:
-    code: 541801
+    code: 541981
     comments: 0
     blanks: 8
     files: 440
   Rust:
-    code: 371383
-    comments: 691
-    blanks: 31708
-    files: 1636
+    code: 377785
+    comments: 692
+    blanks: 32293
+    files: 1647
   Tsx:
-    code: 367158
-    comments: 4959
-    blanks: 42981
-    files: 1899
+    code: 367526
+    comments: 4946
+    blanks: 43054
+    files: 1904
   TypeScript:
-    code: 180905
-    comments: 38888
-    blanks: 15549
-    files: 1144
+    code: 181983
+    comments: 38892
+    blanks: 15688
+    files: 1176
   Go:
     code: 23219
     comments: 390
     blanks: 2695
     files: 103
   Yaml:
-    code: 20715
-    comments: 1687
-    blanks: 1017
-    files: 245
+    code: 21617
+    comments: 1743
+    blanks: 1123
+    files: 261
   JavaScript:
     code: 7738
     comments: 241
@@ -151,7 +151,7 @@ loc:
     blanks: 744
     files: 345
   Toml:
-    code: 3348
+    code: 3356
     comments: 113
     blanks: 269
     files: 105
@@ -217,24 +217,24 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 15112
+    comments: 15129
     blanks: 5712
     files: 330
   Text:
     code: 0
-    comments: 53184
+    comments: 53185
     blanks: 39
     files: 239
 total:
-  code: 5106907
-  comments: 201200
-  blanks: 720028
-  files: 17086
+  code: 5118702
+  comments: 201718
+  blanks: 721492
+  files: 17153
 ---
-date: "2026-11-27T09:57:51Z"
+date: "2026-11-28T08:35:25Z"
 repo:
   name: github.com/BerriAI/litellm
-  commit: 39f7f6a2d9d58327b15699f5d84663ea970f0948
+  commit: 3261387b34b9ff475ab10c0a502f4c236f96d305
 scorecard:
   version: v5.1.1
   commit: cd152cb6742c5b8f2f3d2b5193b41d9c50905198
@@ -244,15 +244,6 @@ checks:
     score: 10
     reason: 30 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 10
     details: null
-  - name: Dependency-Update-Tool
-    score: 10
-    reason: update tool detected
-    details:
-      - 'Info: detected update tool: Dependabot: .github/dependabot.yaml:1'
-  - name: Code-Review
-    score: 10
-    reason: all changesets reviewed
-    details: null
   - name: Security-Policy
     score: 10
     reason: security policy file detected
@@ -261,15 +252,30 @@ checks:
       - 'Info: Found linked content: .github/SECURITY.md:1'
       - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: .github/SECURITY.md:1'
       - 'Info: Found text in security policy: .github/SECURITY.md:1'
+  - name: Code-Review
+    score: 10
+    reason: all changesets reviewed
+    details: null
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
+    details: null
+  - name: Dependency-Update-Tool
+    score: 10
+    reason: update tool detected
+    details:
+      - 'Info: detected update tool: Dependabot: .github/dependabot.yaml:1'
   - name: Packaging
     score: -1
     reason: packaging workflow not detected
     details:
       - 'Warn: no GitHub/GitLab publishing workflow detected.'
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
-    details: null
+  - name: License
+    score: 9
+    reason: license file detected
+    details:
+      - 'Info: project has a license file: LICENSE:0'
+      - 'Warn: project license file does not contain an FSF or OSI license.'
   - name: Token-Permissions
     score: 0
     reason: detected GitHub workflow tokens with excessive permissions
@@ -280,16 +286,16 @@ checks:
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/codeql.yml:22'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/codeql.yml:23'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/compat-matrix-image.yml:23'
-      - 'Warn: jobLevel ''actions'' permission set to ''write'': .github/workflows/cost-map-pins-recheck.yml:20'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/cost-map-pins-recheck.yml:21'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/cost-map-pins-recheck.yml:22'
+      - 'Warn: jobLevel ''actions'' permission set to ''write'': .github/workflows/cost-map-pins-recheck.yml:20'
       - 'Warn: jobLevel ''contents'' permission set to ''write'': .github/workflows/create-rc-branch.yml:17'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/create-rc-branch.yml:74'
       - 'Warn: jobLevel ''contents'' permission set to ''write'': .github/workflows/create-release-branch.yml:32'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/duplicate_issue_check.yml:122'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/duplicate_issue_check.yml:28'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/duplicate_issue_check.yml:48'
       - 'Info: jobLevel ''issues'' permission set to ''read'': .github/workflows/duplicate_issue_check.yml:49'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/duplicate_issue_check.yml:48'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/e2e_record_replay.yml:124'
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/e2e_record_replay.yml:125'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/image-scan.yml:25'
@@ -307,13 +313,6 @@ checks:
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/keep-handwritten-description.yml:22'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/linear-release.yml:28'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/osv-scan.yml:27'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:538'
-      - 'Info: found token with ''none'' permissions: .github/workflows/test-linting.yml:1'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:23'
-      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-linting.yml:24'
-      - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/test-linting.yml:69'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:67'
-      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-linting.yml:68'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:228'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-linting.yml:229'
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/test-linting.yml:230'
@@ -321,30 +320,37 @@ checks:
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:326'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-linting.yml:327'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:418'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:538'
+      - 'Info: found token with ''none'' permissions: .github/workflows/test-linting.yml:1'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:23'
+      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-linting.yml:24'
+      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-linting.yml:68'
+      - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/test-linting.yml:69'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-linting.yml:67'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-mcp-dependency-resolution.yml:101'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-merge-smoke.yml:23'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-merge-smoke.yml:24'
       - 'Info: found token with ''none'' permissions: .github/workflows/test-merge-smoke.yml:1'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1542'
-      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1543'
-      - 'Info: found token with ''none'' permissions: .github/workflows/test-unit.yml:1'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:27'
-      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:28'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:63'
-      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:64'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:140'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:141'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1265'
-      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1266'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:140'
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/test-unit.yml:1296'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1294'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1295'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1386'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1387'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1499'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1542'
+      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1543'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:27'
+      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:28'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:63'
+      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:64'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1265'
+      - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1266'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1483'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1616'
       - 'Info: jobLevel ''pull-requests'' permission set to ''read'': .github/workflows/test-unit.yml:1617'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/test-unit.yml:1483'
+      - 'Info: found token with ''none'' permissions: .github/workflows/test-unit.yml:1'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/zizmor.yml:23'
       - 'Info: found token with ''none'' permissions: .github/workflows/auto-close-duplicates.yml:1'
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/check-schema-sync.yml:11'
@@ -514,16 +520,6 @@ checks:
       - 'Warn: binary detected: litellm/proxy-extras/dist/litellm_proxy_extras-0.4.7-py3-none-any.whl:1'
       - 'Warn: binary detected: litellm/proxy-extras/dist/litellm_proxy_extras-0.4.8-py3-none-any.whl:1'
       - 'Warn: binary detected: litellm/proxy-extras/dist/litellm_proxy_extras-0.4.9-py3-none-any.whl:1'
-  - name: License
-    score: 9
-    reason: license file detected
-    details:
-      - 'Info: project has a license file: LICENSE:0'
-      - 'Warn: project license file does not contain an FSF or OSI license.'
-  - name: Signed-Releases
-    score: -1
-    reason: no releases found
-    details: null
   - name: Pinned-Dependencies
     score: 7
     reason: dependency not pinned by hash detected -- score normalized to 7
@@ -539,18 +535,49 @@ checks:
       - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:15'
       - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:30'
       - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:44'
-      - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:125'
-      - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:185'
-      - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:201'
+      - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:131'
+      - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:191'
+      - 'Warn: containerImage not pinned by hash: litellm/deploy/docker/Dockerfile.fips:209'
       - 'Warn: pipCommand not pinned by hash: tests/e2e/claude_code/cron_vm/run_daily.sh:316'
       - 'Warn: npmCommand not pinned by hash: tests/e2e/ui/run_e2e.sh:176'
       - 'Warn: npmCommand not pinned by hash: tests/e2e/ui/run_e2e.sh:272'
       - 'Warn: pipCommand not pinned by hash: .github/workflows/image-scan.yml:100'
       - 'Info: 134 out of 134 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:  27 out of  27 third-party GitHubAction dependencies pinned'
+      - 'Info:   0 out of   2 pipCommand dependencies pinned'
       - 'Info:   4 out of  18 containerImage dependencies pinned'
       - 'Info:   8 out of  10 npmCommand dependencies pinned'
-      - 'Info:   0 out of   2 pipCommand dependencies pinned'
+  - name: SAST
+    score: -1
+    reason: 'internal error: internal error: Client.Checks.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `cursor` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.'
+    details: null
+  - name: CI-Tests
+    score: -1
+    reason: 'internal error: internal error: Client.Repositories.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `cursor` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.'
+    details: null
+  - name: Branch-Protection
+    score: 4
+    reason: branch protection is not maximal on development and all release branches
+    details:
+      - 'Info: ''allow deletion'' disabled on branch ''main'''
+      - 'Info: ''force pushes'' disabled on branch ''main'''
+      - 'Warn: ''branch protection settings apply to administrators'' is disabled on branch ''main'''
+      - 'Warn: ''stale review dismissal'' is disabled on branch ''main'''
+      - 'Warn: required approving review count is 1 on branch ''main'''
+      - 'Info: codeowner review is required on branch ''main'''
+      - 'Warn: ''last push approval'' is disabled on branch ''main'''
+      - 'Warn: ''up-to-date branches'' is disabled on branch ''main'''
+      - 'Info: status check found to merge onto on branch ''main'''
+      - 'Info: PRs are required in order to make changes on branch ''main'''
+  - name: Signed-Releases
+    score: -1
+    reason: no releases found
+    details: null
+  - name: Fuzzing
+    score: 0
+    reason: project is not fuzzed
+    details:
+      - 'Warn: no fuzzer integrations found'
   - name: Vulnerabilities
     score: 0
     reason: 123 existing vulnerabilities detected
@@ -678,33 +705,6 @@ checks:
       - 'Warn: Project is vulnerable to: PYSEC-2026-3454 / GHSA-xj96-63gp-2gmr'
       - 'Warn: Project is vulnerable to: PYSEC-2026-4363 / GHSA-xvh5-g6gv-559v'
       - 'Warn: Project is vulnerable to: PYSEC-2023-175'
-  - name: SAST
-    score: -1
-    reason: 'internal error: internal error: Client.Checks.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `cursor` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.'
-    details: null
-  - name: CI-Tests
-    score: -1
-    reason: 'internal error: internal error: Client.Repositories.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `cursor` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.'
-    details: null
-  - name: Fuzzing
-    score: 0
-    reason: project is not fuzzed
-    details:
-      - 'Warn: no fuzzer integrations found'
-  - name: Branch-Protection
-    score: 4
-    reason: branch protection is not maximal on development and all release branches
-    details:
-      - 'Info: ''allow deletion'' disabled on branch ''main'''
-      - 'Info: ''force pushes'' disabled on branch ''main'''
-      - 'Warn: ''branch protection settings apply to administrators'' is disabled on branch ''main'''
-      - 'Warn: ''stale review dismissal'' is disabled on branch ''main'''
-      - 'Warn: required approving review count is 1 on branch ''main'''
-      - 'Info: codeowner review is required on branch ''main'''
-      - 'Warn: ''last push approval'' is disabled on branch ''main'''
-      - 'Warn: ''up-to-date branches'' is disabled on branch ''main'''
-      - 'Info: status check found to merge onto on branch ''main'''
-      - 'Info: PRs are required in order to make changes on branch ''main'''
   - name: Contributors
     score: 10
     reason: project has 19 contributing companies or organizations
